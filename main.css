@@ -1,0 +1,10 @@
+main {
+    padding: 0;
+  }
+  header {
+    position: sticky;
+    top:0;
+    padding:40px;
+    background: lavender;
+    text-align: center;
+  }
