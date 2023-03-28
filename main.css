@@ -1,17 +1,39 @@
 main {
     padding: 0;
-  }
-  header {
+}
+
+.nav {
     position: sticky;
-    top:0;
-    padding:40px;
+    top: 0;
+    padding: 40px;
     background: #996888;
     text-align: center;
     font-family: 'DM Sans';
     color: white;
-  }
+}
 
-  /* 
+/* Style the links inside the navigation bar */
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'DM Sans';
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+    color: #2a2b2aff;
+}
+
+/* Add a color to the active/current link */
+.nav a.active {
+    color: #2a2b2aff;
+}
+
+/* 
 
     --jet: #2a2b2aff;
     --eggplant: #5e4955ff;
@@ -20,4 +42,3 @@ main {
     --columbia-blue: #c6ddf0ff;
   
   */
-
