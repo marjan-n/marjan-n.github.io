@@ -38,8 +38,8 @@ img.profile-pic {
     height: auto;  /* Maintain aspect ratio */
     border-radius: 50%;  /* Makes it circular (optional) */
     position: absolute;
-    left: 20px;  /* Move image left */
-    top: 50px; 
+    left: 40px;  /* Move image left */
+    top: 110px; 
 }
 
 /* 
