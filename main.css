@@ -37,6 +37,9 @@ img.profile-pic {
     width: 150px;  /* Adjust size */
     height: auto;  /* Maintain aspect ratio */
     border-radius: 50%;  /* Makes it circular (optional) */
+    position: absolute;
+    left: 20px;  /* Move image left */
+    top: 50px; 
 }
 
 /* 
